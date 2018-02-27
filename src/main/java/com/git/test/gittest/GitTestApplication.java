@@ -8,7 +8,7 @@ public class GitTestApplication {
 
     public static void main(String[] args) {
         System.out.println(getVeryCoolString());
-        System.out.println(getThisAwesomeString());
+        System.out.println(getThisAmazingString());
         SpringApplication.run(GitTestApplication.class, args);
     }
 
@@ -16,7 +16,7 @@ public class GitTestApplication {
         return "This is very cool";
     }
 
-    private static String getThisAwesomeString() {
-        return "This is awesome";
+    private static String getThisAmazingString() {
+        return "This is amazing";
     }
 }
