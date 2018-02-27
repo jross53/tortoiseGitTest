@@ -8,10 +8,15 @@ public class GitTestApplication {
 
     public static void main(String[] args) {
         System.out.println(getCoolString());
+        System.out.println(getThisAwesomeString());
         SpringApplication.run(GitTestApplication.class, args);
     }
 
     private static String getCoolString() {
         return "This is cool";
+    }
+
+    private static String getThisAwesomeString() {
+        return "This is awesome";
     }
 }
